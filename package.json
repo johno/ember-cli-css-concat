@@ -1,6 +1,7 @@
 {
   "name": "ember-cli-css-concat",
-  "version": "0.0.0",
+  "description": "Concatenate your app.css and vendor.css for production builds.",
+  "version": "0.0.1",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -10,7 +11,7 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "https://github.com/stefanpenner/ember-cli",
+  "repository": "https://github.com/johnotander/ember-cli-css-concat",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -31,7 +32,10 @@
     "glob": "^4.0.5"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "css",
+    "concat",
+    "concatenate"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
