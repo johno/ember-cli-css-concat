@@ -35,5 +35,10 @@
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
+  },
+  "dependencies": {
+    "broccoli-concat": "0.0.12",
+    "broccoli-file-remover": "^0.3.1",
+    "broccoli-merge-trees": "^0.2.1"
   }
 }
